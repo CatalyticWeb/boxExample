@@ -1,0 +1,54 @@
+/* body {
+  text-align: center;
+  vertical-align: ;
+} */
+
+.floatBox {
+  height: 50px;
+  width: 50px;
+  background-color: tomato;
+  float: left;
+  
+  padding: 10px;
+  margin-right: 4px;
+  overflow: auto;
+  
+}
+
+.clearBox {
+  clear: right;
+  overflow: auto;
+}
+
+#containerBox {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: #FF7043;
+}
+
+#containerBox2{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
+  
+  
+  
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: #FF7043;
+}
+
+
+#contentBox{ 
+  border: solid 1px blue;
+  margin: 37px;
+  padding: 14px;
+  width: 200px ;
+}
